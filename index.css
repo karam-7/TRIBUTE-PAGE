@@ -1,0 +1,141 @@
+/* Oswald font */
+@import url(https://fonts.googleapis.com/css?family=Oswald:500);
+
+/* tangerine font */
+@import url(https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy);
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.8rem;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-weight: 400;
+    background: #FFF;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background: #EEE;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+figure {
+    font-size: 1.5rem;
+    background:#FFF;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+figcaption {
+    margin: 1rem 0 1rem 0;
+}
+
+h1, h2, h3 {
+    font-family: Oswald, sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 5rem;
+    line-height: 6rem;
+    margin: 0 0 0.5rem 0;
+}
+
+h2 {
+    margin: 0 0 2rem 0;
+    font-size: 3rem;
+    line-height: 3.6rem;
+}
+
+h3 {
+    margin: 2rem 0 1rem 0;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+ul {
+    margin: 0;
+    padding: 0 1rem 0 2rem;
+}
+
+blockquote {
+    position: relative;
+    margin: 0;
+    padding: 1rem 3rem 2rem 3rem;
+    background: #FFF;
+}
+
+blockquote p::before {
+    position: absolute;
+    content: open-quote;
+    margin-left: -1.3rem;
+    margin-top: -1rem;
+    font-size: 3rem;
+}
+
+blockquote p::after {
+    position: absolute;
+    content: close-quote;
+    font-size: 3rem;
+    margin-top: -1rem;
+}
+
+#tribute-info, #tribute {
+    max-width: 770px;
+    margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 992px) {
+    body {
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 8rem;
+        line-height: 10rem;
+        margin: 0 0 1.5rem 0;
+    }
+
+    h2 {
+        margin: 0 0 3rem 0;
+        font-size: 4rem;
+    }
+    
+    h3 {
+        font-size: 3rem;
+        line-height: 4rem;
+        margin: 2rem 0 1rem 0;
+    }
+
+    figure {
+        font-size: 1.8rem;
+    }
+}
+
+.foot p,
+.foot a {
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+  color: black;
+}
